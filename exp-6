@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Operations</title>
+</head>
+<body>
+    <h1>JavaScript Operations</h1>
+    
+    <script>
+        let base = 2;
+        let exponent = 3;
+        let exponentialValue = Math.pow(base, exponent);
+        console.log(`Exponential value of ${base}^${exponent}: ${exponentialValue}`);
+        document.write(`Exponential value of ${base}^${exponent}: ${exponentialValue}<br><br>`);
+        
+        let number = 123.456789;
+        let decimalPlaces = 3;
+        let limitedDecimalValue = number.toFixed(decimalPlaces);
+        console.log(`Limited decimal value of ${number} to ${decimalPlaces} decimal places: ${limitedDecimalValue}`);
+        document.write(`Limited decimal value of ${number} to ${decimalPlaces} decimal places: ${limitedDecimalValue}<br><br>`);
+        
+        let num = 123;
+        let numString = num.toString();
+        console.log(`String representation of ${num}: ${numString}`);
+        document.write(`String representation of ${num}: ${numString}<br><br>`);
+        
+        let negativeInfinity = Number.NEGATIVE_INFINITY;
+        console.log(`Negative infinity: ${negativeInfinity}`);
+        document.write(`Negative infinity: ${negativeInfinity}`);
+    </script>
+</body>
+</html>
